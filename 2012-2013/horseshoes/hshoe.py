@@ -13,11 +13,11 @@ def main(hsGrid):
         return('1')
     
     prevHs = ''
-    flip = False
+    flips = 0
     for hsr in hsGrid:
         for hs in hsr:
             currentHs = hs
             if prevHs != '':
                 if currentHs != prevHs:
-                    flip = True    
+                    flip += 1    
             prevHs = currentHs
