@@ -19,5 +19,5 @@ def main(hsGrid):
             currentHs = hs
             if prevHs != '':
                 if currentHs != prevHs:
-                    flip += 1    
+                    flips += 1    
             prevHs = currentHs
