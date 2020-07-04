@@ -17,7 +17,5 @@ def main(hsGrid):
     for hsr in hsGrid:
         for hs in hsr:
             currentHs = hs
-            if prevHs != '':
-                if currentHs != prevHs:
-                    flips += 1    
+            
             prevHs = currentHs
